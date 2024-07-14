@@ -27,6 +27,7 @@ namespace view1 {
         // #region vm props & methods
         hello = 'hello world!';
         foo = {
+            enable: true,
             bar: (s: string) => 'foo bar ' + s,
             obj: {
                 prop: 'obj prop',
