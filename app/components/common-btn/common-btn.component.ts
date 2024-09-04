@@ -22,7 +22,7 @@ namespace components {
         // #endregion
 
         // #region bindings
-        title!: string;
+        text!: string;
         // #endregion
 
         // #region vm props & methods
@@ -38,7 +38,7 @@ namespace components {
     angular.module('components').component('commonBtn', {
         templateUrl : 'components/common-btn/common-btn.component.html',
         bindings : {
-            title: "@",
+            text: "@text",
         },
         controllerAs : 'ctrl',
         controller : CommonBtnController,
