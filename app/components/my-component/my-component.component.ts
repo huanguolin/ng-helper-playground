@@ -35,7 +35,7 @@ namespace view1 {
         // #endregion
     }
 
-    angular.module('view1').component('myComponent', {
+    angular.module('components').component('myComponent', {
         templateUrl : 'components/my-component/my-component.component.html',
         bindings : {
             // TODO

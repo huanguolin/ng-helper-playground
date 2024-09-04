@@ -45,7 +45,7 @@ namespace view1 {
         // #endregion
     }
 
-    angular.module('view1').component('helloWorld', {
+    angular.module('components').component('helloWorld', {
         templateUrl : 'components/hello-world/hello-world.component.html',
         bindings : {
             myName: '@?',
