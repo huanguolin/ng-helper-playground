@@ -46,7 +46,7 @@ namespace view1 {
     }
 
     angular.module('view1').component('helloWorld', {
-        templateUrl : 'view1/components/hello-world/hello-world.component.html',
+        templateUrl : 'components/hello-world/hello-world.component.html',
         bindings : {
             myName: '@?',
             hi: "<",

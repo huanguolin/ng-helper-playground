@@ -36,7 +36,7 @@ namespace view1 {
     }
 
     angular.module('view1').component('myComponent', {
-        templateUrl : 'view1/components/my-component/my-component.component.html',
+        templateUrl : 'components/my-component/my-component.component.html',
         bindings : {
             // TODO
         },

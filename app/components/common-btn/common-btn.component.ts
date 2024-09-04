@@ -36,7 +36,7 @@ namespace components {
     }
 
     angular.module('components').component('commonBtn', {
-        templateUrl : '~/codeWork/workdir/ng-helper-playground/app/components/common-btn/common-btn.component.html',
+        templateUrl : 'components/common-btn/common-btn.component.html',
         bindings : {
             title: "@",
         },
