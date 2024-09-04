@@ -1,11 +1,11 @@
 
-namespace view1 {
+namespace components {
 
     // #region types
     // #endregion
 
     @autoBindClass
-    class HelloWorldController extends ComponentBase {
+    class CommonBtnController extends ComponentBase {
 
         // #region injections
         static $inject = [
@@ -22,18 +22,10 @@ namespace view1 {
         // #endregion
 
         // #region bindings
+        title!: string;
         // #endregion
 
         // #region vm props & methods
-        hello = 'hello world!';
-        foo = {
-            enable: true,
-            bar: (s: string) => 'foo bar ' + s,
-            obj: {
-                prop: 'obj prop',
-            },
-            num: 42,
-        };
         init() {
             // TODO
         }
@@ -43,12 +35,12 @@ namespace view1 {
         // #endregion
     }
 
-    angular.module('view1').component('helloWorld', {
-        templateUrl : 'view1/components/hello-world/hello-world.component.html',
+    angular.module('components').component('commonBtn', {
+        templateUrl : '~/codeWork/workdir/ng-helper-playground/app/components/common-btn/common-btn.component.html',
         bindings : {
-            // TODO
+            title: "@",
         },
         controllerAs : 'ctrl',
-        controller : HelloWorldController,
+        controller : CommonBtnController,
     });
 }

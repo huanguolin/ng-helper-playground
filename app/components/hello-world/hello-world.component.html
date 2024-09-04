@@ -1,7 +1,8 @@
 <h1 ng-class="{'red': ctrl.hello.length}">
     {{ctrl.hello}}
 </h1>
-<div>
+<div ng-click="ctrl.hello.length" ng-if="ctrl.foo.enable">
     <span>{{ctrl.foo.bar('test')}}</span>
     <span>{{ctrl.foo.obj.prop}}</span>
+    {{ctrl.foo.num.toFixed(2)}}
 </div>
