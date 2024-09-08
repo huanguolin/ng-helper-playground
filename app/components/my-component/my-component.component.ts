@@ -25,6 +25,7 @@ namespace components {
         // #endregion
 
         // #region vm props & methods
+        showBtn = true;
         hello = 'hello world!';
         test?: boolean;
         init() {
