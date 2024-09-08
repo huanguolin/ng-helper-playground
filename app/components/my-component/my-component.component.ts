@@ -1,5 +1,5 @@
 
-namespace view1 {
+namespace components {
 
     // #region types
     // #endregion
@@ -26,6 +26,7 @@ namespace view1 {
 
         // #region vm props & methods
         hello = 'hello world!';
+        test?: boolean;
         init() {
             // TODO
         }
@@ -38,7 +39,7 @@ namespace view1 {
     angular.module('components').component('myComponent', {
         templateUrl : 'components/my-component/my-component.component.html',
         bindings : {
-            // TODO
+            test: '<?',
         },
         controllerAs : 'ctrl',
         controller : MyComponentController,

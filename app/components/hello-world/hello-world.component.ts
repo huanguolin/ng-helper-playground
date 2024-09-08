@@ -1,5 +1,5 @@
 
-namespace view1 {
+namespace components {
 
     // #region types
     // #endregion
