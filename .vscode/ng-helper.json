@@ -1,3 +1,5 @@
 {
-    "componentCssFileExt": "scss"
+    "componentStyleFileExt": "scss",
+    "componentScriptFileExt": "ts",
+    "injectionCheckMode": "strict_equal"
 }
