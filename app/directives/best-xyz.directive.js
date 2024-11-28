@@ -9,9 +9,7 @@ angular.module('app.directives').directive('bestXyz', [
                 z : '?&',
                 xyz : '?=all',
             },
-            template: `
-            <div>{{x}}</div>
-            `,
+            templateUrl: 'app/directives/best-xyz.directive.html',
             link : function (scope, element, attrs, ctrl) {
             },
         };
