@@ -1,6 +1,7 @@
 'use strict';
 angular.module('app.directives').directive('fooBar', [
-    function () {
+    '$translate',
+    function ($translate) {
         return {
             restrict : 'AE',
             scope : {
