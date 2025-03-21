@@ -2,9 +2,11 @@
 angular.module('app.pages').controller('P3Controller', [
     '$scope',
     '$uibModal',
+    's1',
     function (
         $scope,
-        $uibModal
+        $uibModal,
+        s1
     ) {
         // Some code for demo
         $scope.openModel = function () {
@@ -14,6 +16,7 @@ angular.module('app.pages').controller('P3Controller', [
                 controller : 'P2Controller',
             }).result.then(() => {
                 // Do something
+                console.log(s1.name);
             });
         };
     },
